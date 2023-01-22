@@ -3,7 +3,84 @@ import React from 'react'
 
 function DashBoard() {
   return (
-    <Box >Content</Box>
+    <Box >
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+      <p>dfgdfgdfg</p>
+    </Box>
   )
 }
 

@@ -1,6 +1,8 @@
 import {useState} from 'react'
-import { Avatar, Box, Divider, IconButton, List, ListItem, Stack, Typography } from '@mui/material';
+import { Avatar, Box, Divider, IconButton,  List, ListItem, MenuItem, Stack, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import { Link, Navigate } from 'react-router-dom';
+import DashBoard from './../Pages/Dashboard';
 
 
 function SideBar() {
@@ -22,10 +24,22 @@ function SideBar() {
 
       <Divider sx={{ width: '100%'}} />
       
-      <List  sx={{width: '100%',alignItems: 'center'}}>
-        <ListItem  sx={{ alignItems: 'center'}}>
+      <List sx={{ width: '100%', alignItems: 'center' }}>
+        
+        <ListItem sx={{ alignItems: 'center', alignContent: 'center', justifyContent: 'start' }} >
           <MenuIcon />
-          <Typography variant='h5' gutterBottom>Products</Typography>
+           <Link to='/Dashboard'>Dashboard</Link>
+        </ListItem>
+        <Divider sx={{ width: '100%' }} />
+        
+
+        <ListItem sx={{ alignItems: 'center' }}>
+          <Link to='/products'>
+            <Box>
+          <MenuIcon />
+            <Typography variant='h5' gutterBottom>Products</Typography>
+          </Box></Link>
+
         </ListItem>
         <Divider sx={{width: '100%'}} />
         
@@ -33,7 +47,18 @@ function SideBar() {
           <MenuIcon />
           <Typography variant='h5' gutterBottom>Orders</Typography>
         </ListItem>
-        <Divider sx={{width: '100%'}} />
+        <Divider sx={{ width: '100%' }} />
+        
+        <MenuItem>
+          <Box>
+                <Typography variant="h3" color={'#aaa'}>
+                  ADMINS
+                </Typography>
+            <IconButton onClick={() => { <Navigate to='/signin' />}}>
+                  <MenuIcon />
+             </IconButton>
+           </Box>
+          </MenuItem>
 </List>
          
     </Stack>
